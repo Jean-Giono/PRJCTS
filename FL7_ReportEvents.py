@@ -14,14 +14,14 @@
               both the logs as pairs (day, parameter) without preserving the order in which they
               are written.
               
-              For example, let's say checksEvents = [[1, 2], [0, 3]]. This means there were 2 inventory
+              For example, let's say checkEvents = [[1, 2], [0, 3]]. This means there were 2 inventory
               checks: on day 1, there were 2 products in the machine, and on day 0, there were 3
               products in the machine. Also, fillEvents = [[0, 5]], which means that there was a single
               event adding products to the inventory: on day 0, there 5 products added.
               
               Using this information, we can calculate that 2 products were sold on day 0 because 5
               products were added but only 3 were left at the end of the day. Then, 1 product was sold
-              on day 1 - the day began with 3 products based on the previous day's data, but only  were
+              on day 1 - the day began with 3 products based on the previous day's data, but only 2 were
               left at the end of the day. Therefore, the answer is [2, 1] because that's how many products
               were sold each day.
               
@@ -112,4 +112,4 @@ if __name__ == '__main__':
     
     result = getReport(checkEvents, fillEvents)
     
-    print(' '.join(map(str,result)), end="\n")
+    print('\n'.join(map(str,result)), end="\n")
