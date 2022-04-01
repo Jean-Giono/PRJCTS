@@ -12,10 +12,10 @@
               to help Duda.
     
     Input : The first line of input contains T, number of testcases.
-            Each testcase contains single line containing integer N, number given by Duda
+            Each test case contains single line containing integer N, number given by Duda
     
-    Output : For each testcase print "Funny" (without quotes) if the number given in that testcase
-             given in that testcase is Funny, else print "Not Funny".
+    Output : For each test case print "Funny" (without quotes) if the number given in that test case
+             given in that test case is Funny, else print "Not Funny".
     
     Constraints : 1 <= T <= 1000
                   1 <= N <= 1000000
