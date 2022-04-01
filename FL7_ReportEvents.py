@@ -112,4 +112,4 @@ if __name__ == '__main__':
     
     result = getReport(checkEvents, fillEvents)
     
-    print('\n'.join(map(str,result)), end="\n")
+    print('\n'.join(map(str,result)))
