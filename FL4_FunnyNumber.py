@@ -11,7 +11,7 @@
               Now Duda, wants to determine whether a given number N is funny or not. Write a program
               to help Duda.
     
-    Input : First line of input contains T, number of testcases.
+    Input : The first line of input contains T, number of testcases.
             Each testcase contains single line containing integer N, number given by Duda
     
     Output : For each testcase print "Funny" (without quotes) if the number given in that testcase
