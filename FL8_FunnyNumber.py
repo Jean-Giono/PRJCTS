@@ -39,8 +39,6 @@ def getFunnyNumber(n):
         For example for k = 10, k+1 = 11, in base 2 is equal to '1011'.
         After removing the first 1, we have '011'. Then, 5 added to each of
         the remaining digits gives : 566.
-        
-        Ref : The On-Line Encyclopedia Of Integer Sequences
     '''
     bin_n = bin(n+1)
     funny_nb = int(bin_n[3:].replace('0','5').replace('1','6'))
