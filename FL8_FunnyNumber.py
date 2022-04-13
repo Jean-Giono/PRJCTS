@@ -6,9 +6,9 @@
               enumerate all funny integers starting from the smallest one, i.e, : 5,6,55,56,65,etc.
                 
               For a givenn number k, calculate the value of the k-th funny number in the sequence.
-	
     
-	Input : The input consists of a single positive integer k.
+    
+    Input : The input consists of a single positive integer k.
     
     
     Output : The value of the k-th smallest funny number.
