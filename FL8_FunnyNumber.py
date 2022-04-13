@@ -1,7 +1,7 @@
 # Funny Number
 
 '''
-	Problem : We call a positive integer a funny number, if it consists only of digits
+    Problem : We call a positive integer a funny number, if it consists only of digits
               5 and 6 when written down in the usual way in the decimal system. We can
               enumerate all funny integers starting from the smallest one, i.e, : 5,6,55,56,65,etc.
                 
